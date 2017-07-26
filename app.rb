@@ -20,7 +20,7 @@ end
 post '/visit' do 
 
 	@aaa = params[:username]
-	@phone = params[:phone]
+	@bbb = params[:phone]
 	@time = params[:time]
 	@barber = params[:barber]
 	@color = params[:color]

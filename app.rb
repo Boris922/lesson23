@@ -21,8 +21,8 @@ post '/visit' do
 
 	@aaa = params[:username]
 	@bbb = params[:phone]
-	@time = params[:time]
-	@barber = params[:barber]
+	@ccc = params[:time]
+	@ddd = params[:barber]
 	@color = params[:color]
 
 	erb "OK!, username is #{@username}, #{@phone}, #{@time}, #{@barber}, #{@color}"

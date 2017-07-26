@@ -19,7 +19,7 @@ end
 
 post '/visit' do 
 
-	@username = params[:username]
+	@aaa = params[:username]
 	@phone = params[:phone]
 	@time = params[:time]
 	@barber = params[:barber]

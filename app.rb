@@ -23,7 +23,7 @@ post '/visit' do
 	@bbb = params[:phone]
 	@ccc = params[:time]
 	@ddd = params[:barber]
-	@color = params[:color]
+	@eee = params[:color]
 
 	erb "OK!, username is #{@username}, #{@phone}, #{@time}, #{@barber}, #{@color}"
 
